@@ -125,6 +125,42 @@ const serviceData: Record<string, ServiceData> = {
     cta: "Experience the difference that professional, bespoke property management can make. Contact us to discuss how we can preserve and enhance the value of your property.",
     image: "https://images.unsplash.com/photo-1619542402915-dcaf30e4e2a1?q=80&w=2070&auto=format&fit=crop",
   },
+  "landlord-compliance": {
+    title: "Landlord Compliance Management",
+    subtitle: "Your Certificates, Tracked and Renewed — Without You Lifting a Finger",
+    description: "Our Landlord Compliance service gives you a single point of contact for every statutory obligation attached to your rental property — Gas Safety (CP12), EICR, EPC, and smoke and carbon monoxide alarm checks. We hold the renewal calendar, coordinate vetted contractors, and deliver each certificate the moment it's issued, so deadlines are never a source of risk or stress.",
+    process: [
+      {
+        title: "Compliance Audit",
+        description: "We review your property's current certificates and identify what's in date, what's due, and what's missing.",
+      },
+      {
+        title: "Renewal Calendar Setup",
+        description: "Every certificate is logged against its expiry date, with renewal work scheduled well ahead of any deadline.",
+      },
+      {
+        title: "Contractor Coordination",
+        description: "We book and manage vetted, qualified contractors for each job, so you never have to source or chase a tradesperson yourself.",
+      },
+      {
+        title: "Certificate Delivery & Filing",
+        description: "Completed certificates are sent to you and kept on file, ready to produce for tenants, agents, mortgage lenders or insurers on request.",
+      },
+      {
+        title: "Ongoing Monitoring",
+        description: "We continue tracking every property on your behalf, renewing certificates automatically as each one approaches expiry.",
+      },
+    ],
+    benefits: [
+      "Never miss a statutory deadline or risk a fine",
+      "One point of contact instead of juggling multiple tradespeople",
+      "Vetted, qualified and insured contractors on every job",
+      "A complete, organised certificate record for lettings, sales, or insurance",
+      "Peace of mind whether you hold one property or a portfolio",
+    ],
+    cta: "Whether you own a single rental property or a growing portfolio, we'll make sure your compliance is never in question. Contact us to discuss your properties.",
+    image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop",
+  },
 };
 
 const ServiceDetail: React.FC = () => {

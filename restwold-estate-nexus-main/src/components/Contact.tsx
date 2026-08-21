@@ -196,6 +196,7 @@ const Contact: React.FC = () => {
                       <SelectItem value="deal-sourcing">Deal Sourcing</SelectItem>
                       <SelectItem value="property-trading">Property Trading</SelectItem>
                       <SelectItem value="property-management">Property Management</SelectItem>
+                      <SelectItem value="landlord-compliance">Landlord Compliance</SelectItem>
                       <SelectItem value="investment">Investment Opportunities</SelectItem>
                       <SelectItem value="other">Other Inquiry</SelectItem>
                     </SelectContent>
