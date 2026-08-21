@@ -28,6 +28,14 @@ const services = [
     icon: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=2070&auto=format&fit=crop",
     link: "/services/property-management",
   },
+  {
+    id: "landlord-compliance",
+    title: "Landlord Compliance",
+    description:
+      "We track, book and manage every statutory certificate your property needs — gas, electrical, fire and energy — so nothing lapses and nothing falls on you.",
+    icon: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop",
+    link: "/services/landlord-compliance",
+  },
 ];
 
 const Services: React.FC = () => {
